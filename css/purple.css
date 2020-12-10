@@ -134,7 +134,8 @@ a:hover {
 	display:block;
 	padding:0;
 	overflow: hidden;
-	padding-bottom:75px;
+	/*padding-bottom:75px;*/
+	padding-bottom: 30px;
 	padding-top:7px;
 }
 
@@ -507,6 +508,15 @@ img.portrait {
 #cboxLoadingOverlay{background:url(../images/loading.gif) 5px 5px no-repeat #fff;}
 #cboxClose{position:absolute; bottom:0; right:0; display:block; color:#444;}
 
+/* PLEASE TURN OVER */
+#button {
+	background-color: #433245;
+	color: white;
+	padding: 5px;
+	opacity: .8;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
 
 /* GO TO TOP */
 /* ----------------------------------------- */
@@ -516,9 +526,10 @@ img.portrait {
 	display: none;
 	z-index: 999;
 	opacity: .8;
-	position: fixed;
+	/*position: fixed;*/
 	top: 100%;
-	margin-top: -40px;
+	/*margin-top: -40px;*/
+	margin-top: 5px;
 	right: 0%;
 	margin-right:10px;
 	-moz-border-radius: 3px;
